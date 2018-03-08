@@ -33,5 +33,5 @@ echo "[*] Rebooting...";
 sudo reboot;
 
 # using 'crontab -e' I run:
-# 0 3 * * 3 ./update.sh > /home/pi/UpdateLogs/Log_`date +\%m\%d\%y`.log 2>&1
+# 0 3 * * 3 ./update.sh > ./UpdateLogs/Log_`date +\%m\%d\%y`.log 2>&1
 # This outputs to a directory containing all log info
